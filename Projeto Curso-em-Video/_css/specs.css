@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+section#conteudo{
+	width: 1000px;
+	margin: auto;
+}
+iframe#frame-specs{
+	padding-left: 50px;
+	width: 420px;
+	height: 300px;
+	border: none;
+	overflow: hidden;
+}
+iframe#frame-specs::-webkit-scrollbar{
+	display: none;
+	width: 0px;
+	background: transparent;
+}
+section#corpo-full p{
+	padding-left: 20px;
+	padding-right: 60px;
+}
